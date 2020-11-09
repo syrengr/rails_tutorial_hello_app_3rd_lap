@@ -21,6 +21,7 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
 end
 
+# RailsがPostgreSQLと通信できるようにする
 group :production do
   gem 'pg', '0.20.0'
 end
